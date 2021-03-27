@@ -8,11 +8,11 @@ body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color:rgb(213, 234, 235);
+    background-color:rgb(235, 154, 154)
 }
 
 #content{
-    margin: 10px 10px;
-    padding: 10px 10px;
+    margin: 10px 15px;
+    padding: 10px 15px;
     background-color:cornsilk;
 }

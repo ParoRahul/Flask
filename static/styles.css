@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:rgb(213, 234, 235);
+}
+
+#content{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color:cornsilk;
+}

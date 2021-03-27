@@ -3,5 +3,5 @@
 
 
 to run the app 
-1. run ```python3 app.py``` in cli 
+1. run ```python3 app.py``` from cli 
 2. point your browser to localhost:5000

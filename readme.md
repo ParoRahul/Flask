@@ -4,4 +4,9 @@
 
 checkout 
 * Init Baranch - Basic Flask App
-* staticfile - for rendering Static Html content 
+* staticfile - Rendering Static Html content
+
+
+to run the app 
+1. run ``` Python3 app.py```
+2. then point ur browser to localhost:5000/

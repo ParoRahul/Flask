@@ -2,13 +2,22 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
 }
 
 body{
     height: 100vh;
+    font-family: "Lato", Arial, sans-serif;
+    line-height: 1.6;
+    display: block;
+    background-color:cornsilk; 
+}
+
+main{
     display: grid;
     place-items: center;
-    background-color:rgb(235, 154, 154)
+    
+    overflow: hidden;
 }
 
 #content{

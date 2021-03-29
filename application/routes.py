@@ -1,6 +1,6 @@
 import os
 
-from flask import jsonify, request
+from flask import jsonify, request, Response
 
 from . import app
 from .db import database
@@ -23,12 +23,14 @@ def getImageList():
         # print(imageList)
         return jsonify(imageList)
     else:
+        print("Post Request Hit")
+        print(request.files)
         if "file" not in request.files:
             return jsonify({"upload_status": False, "Fail_reason": "invalid File"})
         file = request.files["file"]
         path = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
         file.save(path)
-        image = Image(name=file.filename)
+        image = Image(filename=file.filename)
         database.session.add(image)
         database.session.commit()
-        return path
+        return Response(status=200)

@@ -16,3 +16,14 @@ body{
     padding: 10px 10px;
     background-color:cornsilk;
 } */
+
+
+.error{
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: crimson;
+    margin: 20px;
+    padding: 20px;
+}

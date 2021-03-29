@@ -17,7 +17,7 @@ class Config:
     APPLICATON_DIR = os.path.dirname(os.path.abspath(__file__))
     SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    UPLOAD_FOLDER = os.path.join(APPLICATON_DIR, "application", "static", "images")
+    UPLOAD_FOLDER = os.path.join(APPLICATON_DIR, "application", "static", "image")
 
     # Production and Development Specific Environment
     if os.environ.get("FLASK_ENV") == "production":

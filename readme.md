@@ -8,5 +8,5 @@ checkout
 
 
 to run the app 
-1. run ``` Python3 app.py```
+1. run ``` Python run.py```
 2. then point ur browser to localhost:5000/

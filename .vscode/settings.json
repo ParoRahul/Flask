@@ -1,8 +1,19 @@
 {
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/env": true,
+        "**/.git": true,
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/__pycache__": true,
+        "**/env": true,
+    },
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "bin/python",
+    "python.pythonPath": "env/bin/python",
     "editor.formatOnSave": true,
-    "python.linting.pycodestyleEnabled": false
+    "python.linting.pycodestyleEnabled": false,
+    "python.languageServer": "Pylance"
 }

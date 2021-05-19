@@ -1,10 +1,12 @@
-import os
+"""Router Module."""
 
-from flask import jsonify, request, Response
+import os
 
 from . import app
 from .db import database
 from .models import Image
+
+from flask import Response, jsonify, request
 
 
 @app.route("/home")

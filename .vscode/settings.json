@@ -14,5 +14,6 @@
     "python.linting.enabled": true,
     "editor.formatOnSave": true,
     "python.linting.pycodestyleEnabled": false,
-    "python.languageServer": "Pylance"
+    "python.languageServer": "Pylance",
+    "python.pythonPath": ".env\\Scripts\\python.exe"
 }

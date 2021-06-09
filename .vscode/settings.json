@@ -15,5 +15,9 @@
     "editor.formatOnSave": true,
     "python.linting.pycodestyleEnabled": false,
     "python.languageServer": "Pylance",
-    "python.pythonPath": ".env\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#ffffff",
+        "terminal.background": "#000000"
+    }
 }
